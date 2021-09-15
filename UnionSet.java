@@ -1,5 +1,13 @@
 package Model;
 
+// 并查集示例
+/**
+ * 声明parent数组，parent[i] = i
+ *  find()方法：寻找根结点；参数：parent数组，和i
+ *  union()方法：两个元素的祖先根节点不同，将其合并，并且每次合并count （len(parent)）都要--
+ *              最后的count就是集合的个数
+ * */
+
 public class UnionSet {
     public int findCircleNum(int[][] isConnected) {
         int arrLen = isConnected.length;
