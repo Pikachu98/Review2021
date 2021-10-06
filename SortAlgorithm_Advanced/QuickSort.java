@@ -1,5 +1,6 @@
 package Model.SortAlgorithm_Advanced;
 
+// 左边都是比pivot处的元素小的，右边都是比pivot处元素大的，重点是找到pivot处的元素
 public class QuickSort {
     public static void main(String[] args) {
         int[] arr = {3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48};
