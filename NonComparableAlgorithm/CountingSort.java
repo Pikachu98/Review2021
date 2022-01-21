@@ -8,6 +8,10 @@ package Model.NonComparableAlgorithm;
  * 4. 通过额外生命的数组还原排好序的结果
  * 
  * 这里就是利用了额外的数组空间的下标是有序的特点
+ *
+ * 时间复杂度：O(n+k) 统计数量+还原
+ * 空间复杂度：O(n+k) 需要额外的空间来存储元素
+ * 稳定性：稳定
  * */
 
 public class CountingSort {
