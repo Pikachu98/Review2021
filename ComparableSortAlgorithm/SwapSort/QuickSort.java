@@ -1,4 +1,4 @@
-package Model.SortAlgorithm.SwapSort;
+package Model.ComparableSortAlgorithm.SwapSort;
 
 // 左边都是比pivot处的元素小的，右边都是比pivot处元素大的，重点是找到pivot处的元素
 public class QuickSort {

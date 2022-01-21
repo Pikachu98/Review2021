@@ -1,4 +1,4 @@
-package Model.SortAlgorithm.InsertionSort;
+package Model.ComparableSortAlgorithm.InsertionSort;
 
 // 保证前半部分有序，每次从后向前扫描已排序的数组并将新的数字插入
 // 当前要插入的数字要被记录下来，因为数字在不停的变位置，插入之后，原来的位置的元素要向后移动,如果前一个元素比当前元素大的话，前一个元素会后移，导致nums

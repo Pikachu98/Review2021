@@ -1,4 +1,4 @@
-package Model.SortAlgorithm.InsertionSort;
+package Model.ComparableSortAlgorithm.InsertionSort;
 /**
  * Shell Sort就是特殊的插入排序；对于部分有序的数组，插入排序的效率会提高
  *

@@ -1,4 +1,4 @@
-package Model.SortAlgorithm.SwapSort;
+package Model.ComparableSortAlgorithm.SwapSort;
 
 // 每次都查看两个相邻元素是否逆序，逆序则交换两者的顺序，如果是从大到小的话，最大的就会被冒泡冒到最后面去
 public class BubbleSort {

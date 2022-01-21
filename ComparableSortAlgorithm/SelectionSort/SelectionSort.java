@@ -1,4 +1,4 @@
-package Model.SortAlgorithm.SelectionSort;
+package Model.ComparableSortAlgorithm.SelectionSort;
 
 // 每次选择最小值，放到待排序数组的起始位置
 public class SelectionSort {
