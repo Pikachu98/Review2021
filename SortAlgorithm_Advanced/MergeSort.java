@@ -11,6 +11,8 @@ public class MergeSort {
         }
 
     }
+
+    // 找到中间指针，指针左边mergeSort, 右边mergeSort，直到走不下去了，两边merge
     public void mergeSort(int[] arr, int left, int right) {
         if (right <= left) return;
         int mid = (left + right) >> 1;

@@ -4,6 +4,7 @@ package Model.SortAlgorithm.InsertionSort;
  *
  * Key point: 在相对有序数组里的插入排序更有效率
  * 视频参考： https://www.bilibili.com/video/BV1rE411g7rW
+ * 动画：    https://www.cnblogs.com/onepixel/p/7674659.html
  * 代码参考： http://data.biancheng.net/view/119.html#:~:text=%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F%E7%9A%84%E5%9F%BA%E6%9C%AC,%E4%BD%BF%E7%94%A8%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E5%A4%84%E7%90%86%E6%95%B0%E5%88%97%E3%80%82
  *
  * 1st loop: 初始gap为数组长度除以2，之后每次都是前一次的1/2；最后一次gap是1，其实就是插入排序，但是因为之前已经让数组变得相对有序了，因此时间变短
