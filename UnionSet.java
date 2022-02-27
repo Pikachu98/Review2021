@@ -41,8 +41,8 @@ public class UnionSet {
         // 压缩路径
         while (i != parent[i]) {
             int x = i;
-            i = parent[i];      //依次向上寻找每一个父元素
             parent[x] = root;   //原来的父亲变成祖先
+            i = parent[i];      //依次向上寻找每一个父元素
         }
 
         return root;
